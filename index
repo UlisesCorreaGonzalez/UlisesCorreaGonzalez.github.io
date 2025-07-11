@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio | Ulises Correa</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f4f8;
+      color: #333;
+    }
+    header {
+      background: #003366;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .project {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+    }
+    .project h2 {
+      margin-top: 0;
+    }
+    .project a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #003366;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portafolio de Ulises Correa</h1>
+    <p>Ingeniero Informático | Desarrollador de Software | Apasionado por la tecnología</p>
+  </header>
+  <div class="container">
+    <section class="project">
+      <h2>Sistema de Inventario</h2>
+      <p>Aplicación de escritorio para el control de inventario, entradas, salidas, reportes PDF y automatización de Excel. Incluye login, permisos y lector de código de barras.</p>
+      <a href="https://github.com/UlisesCorreaGonzalez/Sistema-de-Almac-n" target="_blank">Ver en GitHub</a>
+    </section>
+
+    <section class="project">
+      <h2>Control de Calidad en Excel</h2>
+      <p>Hoja de Excel con macros que permiten registrar medidas de piezas, validar tolerancias y generar estadísticas como CPK, CP y gráficas tipo campana para análisis de calidad.</p>
+      <a href="https://github.com/UlisesCorreaGonzalez/Control-Calidad-Excel" target="_blank">Ver en GitHub</a>
+    </section>
+
+    <section class="project">
+      <h2>Calendario de Producción</h2>
+      <p>Herramienta en Excel tipo diagrama de Gantt con macros que gestionan la carga de trabajo mensual de producción, días hábiles, fechas de entrega y múltiples áreas de trabajo.</p>
+      <a href="https://github.com/UlisesCorreaGonzalez/Calendario-Produccion" target="_blank">Ver en GitHub</a>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Ulises Correa | Irapuato, Gto.</p>
+  </footer>
+</body>
+</html>
