@@ -2,76 +2,59 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portafolio | Ulises Correa</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portafolio de Ulises Correa</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f0f4f8;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
       color: #333;
-    }
-    header {
-      background: #003366;
-      color: white;
       padding: 2rem;
-      text-align: center;
-    }
-    .container {
-      max-width: 1000px;
+      max-width: 900px;
       margin: auto;
-      padding: 2rem;
     }
-    .project {
+    h1, h2 {
+      color: #2c3e50;
+    }
+    .proyecto {
       background: white;
-      border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-      margin-bottom: 2rem;
       padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
-    .project h2 {
-      margin-top: 0;
-    }
-    .project a {
-      color: #0077cc;
+    a {
+      color: #3498db;
       text-decoration: none;
     }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #003366;
-      color: white;
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Portafolio de Ulises Correa</h1>
-    <p>Ingeniero Informático | Desarrollador de Software | Apasionado por la tecnología</p>
-  </header>
-  <div class="container">
-    <section class="project">
-      <h2>Sistema de Inventario</h2>
-      <p>Aplicación de escritorio para el control de inventario, entradas, salidas, reportes PDF y automatización de Excel. Incluye login, permisos y lector de código de barras.</p>
-      <a href="https://github.com/UlisesCorreaGonzalez/Sistema-de-Almac-n" target="_blank">Ver en GitHub</a>
-    </section>
+  <h1>¡Hola! Soy José Ulises Correa González</h1>
+  <p>Estudiante de Ingeniería Informática con enfoque en desarrollo de software y automatización. Este es mi portafolio donde muestro algunos de los proyectos más destacados que he desarrollado.</p>
 
-    <section class="project">
-      <h2>Control de Calidad en Excel</h2>
-      <p>Hoja de Excel con macros que permiten registrar medidas de piezas, validar tolerancias y generar estadísticas como CPK, CP y gráficas tipo campana para análisis de calidad.</p>
-      <a href="https://github.com/UlisesCorreaGonzalez/Control-Calidad-Excel" target="_blank">Ver en GitHub</a>
-    </section>
+  <h2>🛠️ Proyectos</h2>
 
-    <section class="project">
-      <h2>Calendario de Producción</h2>
-      <p>Herramienta en Excel tipo diagrama de Gantt con macros que gestionan la carga de trabajo mensual de producción, días hábiles, fechas de entrega y múltiples áreas de trabajo.</p>
-      <a href="https://github.com/UlisesCorreaGonzalez/Calendario-Produccion" target="_blank">Ver en GitHub</a>
-    </section>
+  <div class="proyecto">
+    <h3><a href="https://github.com/UlisesCorreaGonzalez/Sistema-de-Control-de-Calidad-en-Excel" target="_blank">📊 Sistema de Control de Calidad en Excel</a></h3>
+    <p>Este proyecto automatiza el análisis de medidas en piezas metálicas. Compara con tolerancias, visualiza los errores en colores, genera reportes estadísticos y una gráfica de campana de Gauss. Incluye segmentación por departamentos y es ideal para áreas de calidad industrial.</p>
   </div>
 
-  <footer>
-    <p>&copy; 2025 Ulises Correa | Irapuato, Gto.</p>
+  <div class="proyecto">
+    <h3><a href="https://github.com/UlisesCorreaGonzalez/Diagrama-Gantt-Excel-Automatizado" target="_blank">📅 Diagrama de Gantt Automatizado en Excel</a></h3>
+    <p>Herramienta creada para planificar órdenes de producción en distintas áreas. Calcula fechas de entrega según días hábiles, permite insertar nuevas tablas dinámicamente y genera automáticamente el calendario por colores. Ideal para producción o logística.</p>
+  </div>
+
+  <div class="proyecto">
+    <h3><a href="https://github.com/UlisesCorreaGonzalez/Sistema-de-Almac-n" target="_blank">🏭 Sistema de Gestión de Almacén</a></h3>
+    <p>Aplicación Windows para la gestión completa de entradas y salidas de materiales, con reportes en PDF, control de stock, validación de permisos, y registro detallado con filtros y exportaciones. Incluye backup automático y funcionalidades avanzadas.</p>
+  </div>
+
+  <footer style="margin-top: 3rem; font-size: 0.9rem; color: #777;">
+    © 2025 José Ulises Correa González · <a href="https://www.linkedin.com/in/josé-ulises-correa-gonzález/" target="_blank">LinkedIn</a>
   </footer>
 </body>
 </html>
