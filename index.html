@@ -2,47 +2,63 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portafolio | Ulises Correa</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <div class="container">
-      <h1>Ulises Correa</h1>
-      <p>Ingeniero Informático | Desarrollador de Software | Apasionado por la automatización</p>
-    </div>
+    <img src="img/perfil.jpg" alt="Foto de Ulises" class="perfil-img">
+    <h1>Ulises Correa</h1>
+    <p>Ingeniero Informático | Desarrollador de Software | Apasionado por la tecnología</p>
+    <nav>
+      <ul class="nav">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main class="container">
-    <section class="about">
-      <img src="img/perfil.jpg" alt="Foto de Ulises" class="perfil">
-      <p>¡Hola! Soy Ulises, estudiante de Ingeniería Informática con experiencia en desarrollo de aplicaciones de escritorio, automatización con Excel y soluciones prácticas para la industria. Aquí te muestro algunos de mis proyectos.</p>
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Soy estudiante de Ingeniería Informática con experiencia en el desarrollo de software práctico en entornos industriales. Me apasiona crear soluciones automatizadas y eficientes, desde sistemas de control hasta herramientas en Excel que optimizan procesos.</p>
     </section>
 
-    <h2>🛠 Proyectos destacados</h2>
+    <section id="proyectos">
+      <h2>Proyectos</h2>
 
-    <section class="project">
-      <h3>Sistema de Inventario</h3>
-      <p>Aplicación para gestionar entradas, salidas, reportes en PDF, control de stock y backup automático.</p>
-      <a href="https://github.com/UlisesCorreaGonzalez/Sistema-de-Almac-n" target="_blank">🔗 Ver en GitHub</a>
+      <div class="card">
+        <img src="img/almacen.png" alt="Sistema de Inventario">
+        <h3>Sistema de Inventario</h3>
+        <p>Aplicación de escritorio para el control de inventario, entradas, salidas, reportes PDF y automatización de Excel. Incluye login, permisos y lector de código de barras.</p>
+        <a href="https://github.com/UlisesCorreaGonzalez/Sistema-de-Almac-n" target="_blank" class="btn">Ver proyecto</a>
+      </div>
+
+      <div class="card">
+        <img src="img/excel.png" alt="Control de Calidad">
+        <h3>Control de Calidad en Excel</h3>
+        <p>Macros para analizar medidas de piezas, validar tolerancias y generar estadísticas como CPK, CP y gráficas tipo campana. Ideal para el área de calidad.</p>
+        <a href="https://github.com/UlisesCorreaGonzalez/Sistema-de-Control-de-Calidad-en-Excel" target="_blank" class="btn">Ver proyecto</a>
+      </div>
+
+      <div class="card">
+        <img src="img/gantt.png" alt="Calendario de Producción">
+        <h3>Calendario de Producción</h3>
+        <p>Herramienta tipo diagrama de Gantt para organizar órdenes de producción en múltiples áreas con días hábiles y macros que automatizan las fechas.</p>
+        <a href="https://github.com/UlisesCorreaGonzalez/Diagrama-Gantt-Excel-Automatizado" target="_blank" class="btn">Ver proyecto</a>
+      </div>
     </section>
 
-    <section class="project">
-      <h3>Control de Calidad en Excel</h3>
-      <p>Archivo de Excel con macros que valida medidas, destaca errores y genera reportes estadísticos con gráficas.</p>
-      <a href="https://github.com/UlisesCorreaGonzalez/Sistema-de-Control-de-Calidad-en-Excel" target="_blank">🔗 Ver en GitHub</a>
-    </section>
-
-    <section class="project">
-      <h3>Diagrama Gantt Automatizado</h3>
-      <p>Diagrama interactivo en Excel que gestiona cargas de trabajo por mes, áreas y días hábiles.</p>
-      <a href="https://github.com/UlisesCorreaGonzalez/Diagrama-Gantt-Excel-Automatizado" target="_blank">🔗 Ver en GitHub</a>
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Puedes encontrarme en <a href="https://www.linkedin.com/in/josé-ulises-correa-gonzález/" target="_blank">LinkedIn</a> o escribirme a <strong>ulisescorreagonzalez@gmail.com</strong></p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Ulises Correa · <a href="https://www.linkedin.com/in/josé-ulises-correa-gonzález/" target="_blank">LinkedIn</a></p>
+    <p>&copy; 2025 Ulises Correa · Irapuato, Gto.</p>
   </footer>
 </body>
 </html>
