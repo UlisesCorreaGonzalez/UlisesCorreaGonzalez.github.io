@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Control de Calidad en Excel | Ulises Correa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="img/perfil.jpg" alt="Foto de Ulises" class="perfil-img" />
+    <h1>Control de Calidad en Excel</h1>
+    <p>Proyecto Profesional</p>
+    <nav>
+      <ul class="nav">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="proyectos-profesionales.html">← Volver a proyectos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Descripción del Proyecto</h2>
+      <p>
+        Esta herramienta fue desarrollada en Microsoft Excel utilizando macros en VBA, con el objetivo de automatizar y simplificar el proceso de inspección de calidad en una empresa de manufactura.
+      </p>
+      <p>El archivo Excel está organizado en diferentes hojas con funcionalidades específicas:</p>
+      <ul>
+        <li><strong>Registro:</strong> Captura de medidas de hasta 9 lados por pieza. Se ingresan datos como operador, máquina, orden de producción y la fecha. El sistema valida automáticamente contra especificaciones y colorea los resultados: verde (OK), amarillo (en tolerancia), rojo (fuera de rango). También calcula la desviación exacta por lado.</li>
+        <li><strong>Tabla:</strong> Consolida los registros y permite filtrar por operador, pieza, fecha, etc. A partir de estos filtros, se generan cálculos estadísticos como: promedio, rango, media, desviación estándar, CP, CPK, etc.</li>
+        <li><strong>Campana:</strong> Contiene una gráfica de tipo Gauss (campana de distribución) ajustada a los datos filtrados, útil para análisis visual de la dispersión de medidas.</li>
+        <li><strong>Hojas de departamentos:</strong> Cada una contiene las especificaciones de piezas para diferentes áreas. Aquí se hace la validación automática con los datos de la hoja de registro.</li>
+      </ul>
+      <p>
+        Este proyecto ha sido implementado exitosamente para mejorar el monitoreo de calidad y generar indicadores clave a partir de registros reales.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="carousel-title">Galería</h2>
+      <div class="carousel-container">
+        <img src="img/comparacion.png" alt="Registro de medidas" class="carousel-img" />
+        <img src="img/tablaMedidas.png" alt="Estadísticas de calidad" class="carousel-img" />
+        <img src="img/evaluacion.png" alt="Gráfica de Campana de Gauss" class="carousel-img" />
+        <img src="img/campana.png" alt="Gráfica de Campana de Gauss" class="carousel-img" />
+      </div>
+    </section>
+
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="https://github.com/UlisesCorreaGonzalez/Sistema-de-Control-de-Calidad-en-Excel" target="_blank" class="btn">Ver en GitHub</a>
+      <a href="proyectos-profesionales.html" class="btn">Volver a Proyectos</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ulises Correa · Irapuato, Gto.</p>
+  </footer>
+</body>
+</html>

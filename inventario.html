@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Inventario | Ulises Correa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="img/perfil.jpg" alt="Foto de Ulises" class="perfil-img">
+    <h1>Sistema de Inventario</h1>
+    <p>Proyecto Profesional</p>
+    <nav>
+      <ul class="nav">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="proyectos-profesionales.html">← Volver a proyectos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+<section>
+  <h2>Descripción del Proyecto</h2>
+  <p>Este sistema fue desarrollado en VB.NET utilizando archivos de Excel como base de datos, ideal para pequeñas empresas con infraestructura limitada. La solución está diseñada para la gestión eficiente de inventarios industriales, permitiendo portabilidad y fácil migración entre equipos.</p>
+
+  <p>El sistema está compuesto por los siguientes módulos clave:</p>
+  <ul>
+    <li><strong>Login y Seguridad:</strong> Inicio de sesión con autenticación por usuario, contraseña e IP. Incluye control de permisos para restringir accesos a funciones como edición o eliminación.</li>
+
+    <li><strong>Inventario:</strong> Registro y administración de materiales como piezas, consumibles o herramienta. Incluye filtros por tipo, búsqueda por código o nombre, y permite exportar reportes detallados.</li>
+
+    <li><strong>Entradas:</strong> Registro de nuevas existencias mediante código (autocompletado), proveedor, cantidad, unidad de medida, OP, fecha, lote y comentarios. Se generan folios automáticos y se integra con el módulo de Reportes Específicos.</li>
+
+    <li><strong>Salidas:</strong> Registro de materiales entregados al personal. Similar al módulo de entradas, pero con campos simplificados. Descuenta automáticamente del stock global.</li>
+
+    <li><strong>Reportes:</strong> Vista general de todas las entradas y salidas. Se pueden aplicar filtros por fechas, exportar en PDF, y enviar datos al módulo de Reporte Específico.</li>
+
+    <li><strong>Reporte Específico:</strong> Generación de documentos filtrados por tipo de operación, periodos no consecutivos o múltiples rangos de fechas. Ideal para auditorías o seguimiento puntual.</li>
+  </ul>
+
+  <p>Este sistema ha sido probado en entornos reales de producción, ayudando a reducir errores de inventario y facilitando la trazabilidad de materiales, manteniendo la simplicidad de uso gracias al soporte en Excel como almacenamiento de datos.</p>
+</section>
+
+<section>
+  <h2 class="carousel-title">Galería</h2>
+  <div class="carousel-container">
+    <img src="img/login.png" alt="Captura 1" class="carousel-img">
+    <img src="img/inventario.png" alt="Captura 2" class="carousel-img">
+    <img src="img/entradas.png" alt="Captura 3" class="carousel-img">
+    <img src="img/salidas.png" alt="Captura 4" class="carousel-img">
+    <img src="img/ReporteMensual.png" alt="Captura 5" class="carousel-img">
+    <img src="img/ReporteEspecifico.png" alt="Captura 6" class="carousel-img">
+    <img src="img/pdf.png" alt="Captura 6" class="carousel-img">
+  </div>
+</section>
+
+
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="https://github.com/UlisesCorreaGonzalez/Sistema-de-Almac-n" target="_blank" class="btn">Ver en GitHub</a>
+      <a href="proyectos-profesionales.html" class="btn">Volver a Proyectos</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ulises Correa · Irapuato, Gto.</p>
+  </footer>
+</body>
+</html>

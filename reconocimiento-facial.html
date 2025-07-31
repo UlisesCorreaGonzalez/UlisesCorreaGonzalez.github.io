@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sistema de Reconocimiento Facial TEHIBA | Ulises Correa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="img/perfil.jpg" alt="Foto de Ulises" class="perfil-img" />
+    <h1>Sistema de Reconocimiento Facial TEHIBA</h1>
+    <p>Proyecto Extra</p>
+    <nav>
+      <ul class="nav">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="proyectos-extra.html">← Volver a Proyectos Extra</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Descripción del Proyecto</h2>
+      <p>
+        Este sistema está desarrollado con Flask y OpenCV para realizar reconocimiento facial en tiempo real usando la cámara web. Detecta y reconoce rostros de personas conocidas comparando con imágenes previamente almacenadas, y muestra la información relevante en una interfaz web sencilla, intuitiva y responsiva.
+      </p>
+      <p>Las principales características y funciones del sistema son:</p>
+      <ul>
+        <li><strong>Detección en tiempo real:</strong> Captura la imagen de la cámara web y detecta rostros al instante.</li>
+        <li><strong>Reconocimiento facial:</strong> Compara rostros detectados con las imágenes conocidas almacenadas en la carpeta <code>known/</code>, identificando a las personas automáticamente.</li>
+        <li><strong>Interfaz web:</strong> Muestra la vista de cámara con cuadros alrededor de los rostros reconocidos y un panel que indica el estado y la información de la persona detectada.</li>
+        <li><strong>Actualización dinámica:</strong> La información de la persona reconocida se actualiza en tiempo real gracias a la comunicación con el servidor Flask mediante AJAX.</li>
+        <li><strong>Fácil expansión:</strong> Se pueden agregar más imágenes a la carpeta <code>known/</code> para ampliar el reconocimiento a más usuarios.</li>
+      </ul>
+      <p>
+        Este proyecto es ideal para sistemas de seguridad, control de accesos o aplicaciones donde se requiere identificación automática mediante reconocimiento facial.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="carousel-title">Galería</h2>
+      <div class="carousel-container">
+        <img src="img/desconocido.png" alt="Captura del sistema en acción" class="carousel-img" />
+        <img src="img/conocido.png" alt="Interfaz mostrando reconocimiento" class="carousel-img" />
+      </div>
+    </section>
+
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="https://github.com/UlisesCorreaGonzalez/Reconocimiento-Facial" target="_blank" class="btn">Ver en GitHub</a>
+      <a href="proyectos-extra.html" class="btn">Volver a Proyectos Extra</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ulises Correa · Irapuato, Gto.</p>
+  </footer>
+</body>
+</html>
