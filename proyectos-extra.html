@@ -1,46 +1,60 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Proyectos Extra | Ulises Correa</title>
+  <title>Personal Projects | Ulises Correa</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <img src="img/perfil.jpg" alt="Foto de Ulises" class="perfil-img">
-    <h1>Proyectos Extra</h1>
-    <p>Aplicaciones y herramientas desarrolladas en contextos laborales reales.</p>
+    <img src="img/perfil.jpg" alt="Ulises Profile Picture" class="perfil-img">
+    <h1>Personal Projects</h1>
+    <p>Personal applications, prototypes, and experiments focused on learning and innovation.</p>
     <nav>
       <ul class="nav">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="index.html#sobre-mi">Sobre mí</a></li>
-        <li><a href="index.html#proyectos">Proyectos</a></li>
-        <li><a href="index.html#contacto">Contacto</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#sobre-mi">About Me</a></li>
+        <li><a href="index.html#proyectos">Projects</a></li>
+        <li><a href="index.html#contacto">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <main class="container">
     <section>
-      <h2>Mis Proyectos Extra</h2>
+      <h2>My Personal Projects</h2>
 
       <div class="card">
-        <img src="img/reconocimiento_facial.png" alt="Sistema de Reconocimiento Facial">
-        <h3>Sistema de Reconocimiento Facial TEHIBA</h3>
-        <p>Proyecto basado en Flask y OpenCV para reconocimiento facial en tiempo real usando cámara web. Detecta rostros conocidos y muestra información relevante en una interfaz web sencilla y responsiva.</p>
-        <p>El sistema utiliza imágenes almacenadas en la carpeta <code>known/</code> para identificar personas automáticamente.</p>
-        <a href="reconocimiento-facial.html" class="btn">Ver más</a>
+        <img src="img/reconocimiento_facial.png" alt="Facial Recognition System">
+        
+        <h3>Real-Time Facial Recognition System (TEHIBA)</h3>
+
+        <p>
+          Web-based system built with Flask and OpenCV for real-time facial recognition using a webcam. It detects and identifies known individuals by comparing live input with stored images.
+        </p>
+
+        <p>
+          The system features a responsive web interface that displays detected faces along with relevant user information, updated dynamically in real time.
+        </p>
+
+        <p>
+          Known faces are managed through a <code>known/</code> directory, allowing easy scalability by adding new users to the system.
+        </p>
+
+        <p><strong>Tech Stack:</strong> Python, Flask, OpenCV, JavaScript</p>
+
+        <a href="reconocimiento-facial.html" class="btn">View More</a>
       </div>
 
       <div style="text-align: center; margin-top: 2rem;">
-        <a href="index.html" class="btn">Volver al Inicio</a>
+        <a href="index.html" class="btn">Back to Home</a>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Ulises Correa · Irapuato, Gto.</p>
+    <p>&copy; 2025 Ulises Correa · Irapuato, Mexico</p>
   </footer>
 </body>
 </html>
