@@ -1,58 +1,66 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Diagrama de Gantt en Excel | Ulises Correa</title>
+  <title>Automated Gantt Chart in Excel | Ulises Correa</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <img src="img/perfil.jpg" alt="Foto de Ulises" class="perfil-img" />
-    <h1>Diagrama de Gantt en Excel</h1>
-    <p>Proyecto Profesional</p>
+    <img src="img/perfil.jpg" alt="Ulises Profile Picture" class="perfil-img" />
+    <h1>Automated Gantt Chart in Excel</h1>
+    <p>Professional Project</p>
     <nav>
       <ul class="nav">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="proyectos-profesionales.html">← Volver a proyectos</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="proyectos-profesionales.html">← Back to Projects</a></li>
       </ul>
     </nav>
   </header>
 
   <main class="container">
     <section>
-      <h2>Descripción del Proyecto</h2>
+      <h2>Project Overview</h2>
+
+      <p><strong>Tech Stack:</strong> Excel, VBA</p>
+
       <p>
-        Este archivo Excel fue desarrollado para gestionar planes de producción mediante un diagrama de Gantt automatizado con macros en VBA. El objetivo es visualizar y comparar el tiempo estimado y real de las operaciones por departamento.
+        This Excel-based tool was developed to manage production planning using an automated Gantt chart. It allows visualization and comparison between planned and actual execution times across different departments.
       </p>
-      <p>Las principales funciones de esta herramienta son:</p>
+
+      <h3>Key Features</h3>
       <ul>
-        <li><strong>Planificación:</strong> Se ingresan fecha de inicio y duración estimada por operación. El sistema genera visualmente las actividades en un calendario horizontal por días.</li>
-        <li><strong>Días hábiles:</strong> Solo se consideran días laborables, y los domingos se marcan con una <span style="color: sienna;">taza de café ☕</span> y fondo color café para indicar descanso.</li>
-        <li><strong>Comparación:</strong> El sistema también permite registrar el tiempo real que tomó la actividad, para comparar contra lo planeado.</li>
-        <li><strong>Automatización:</strong> Cada bloque (tabla) de actividades se puede duplicar fácilmente y mantener organizado. También se limpia y actualiza la visualización con un solo clic.</li>
+        <li><strong>Planning:</strong> Input start date and estimated duration per task. The system automatically generates a visual timeline across a horizontal calendar.</li>
+
+        <li><strong>Working Days Logic:</strong> Only business days are considered. Sundays are visually marked to indicate non-working days.</li>
+
+        <li><strong>Performance Tracking:</strong> Records actual execution time and compares it against the planned schedule.</li>
+
+        <li><strong>Automation:</strong> Task blocks can be duplicated easily, and the chart can be refreshed and updated with a single action.</li>
       </ul>
+
       <p>
-        Esta herramienta mejora la planeación de producción, ayudando a visualizar retrasos, cuellos de botella y desempeño por áreas.
+        This tool improves production planning by helping identify delays, bottlenecks, and performance across departments.
       </p>
     </section>
 
     <section>
-      <h2 class="carousel-title">Galería</h2>
+      <h2 class="carousel-title">Gallery</h2>
       <div class="carousel-container">
-        <img src="img/fechas.png" alt="Diagrama de Gantt Excel" class="carousel-img" />
-        <img src="img/gannt.png" alt="Coloreado por días hábiles" class="carousel-img" />
+        <img src="img/fechas.png" alt="Gantt chart timeline" class="carousel-img" />
+        <img src="img/gannt.png" alt="Working days visualization" class="carousel-img" />
       </div>
     </section>
 
     <div style="text-align: center; margin-top: 2rem;">
-      <a href="https://github.com/UlisesCorreaGonzalez/Diagrama-Gantt-Excel-Automatizado" target="_blank" class="btn">Ver en GitHub</a>
-      <a href="proyectos-profesionales.html" class="btn">Volver a Proyectos</a>
+      <a href="https://github.com/UlisesCorreaGonzalez/Diagrama-Gantt-Excel-Automatizado" target="_blank" class="btn">View on GitHub</a>
+      <a href="proyectos-profesionales.html" class="btn">Back to Projects</a>
     </div>
   </main>
 
   <footer>
-    <p>&copy; 2025 Ulises Correa · Irapuato, Gto.</p>
+    <p>&copy; 2025 Ulises Correa · Irapuato, Mexico</p>
   </footer>
 </body>
 </html>
