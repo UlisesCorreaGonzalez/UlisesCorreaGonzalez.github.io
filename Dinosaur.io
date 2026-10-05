@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dino.io | Ulises Correa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="img/perfil.jpg" alt="Ulises Profile Picture" class="perfil-img" />
+    <h1>Dino.io</h1>
+    <p>Multiplayer Web Game</p>
+    <nav>
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="proyectos-extra.html">← Back to Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Project Overview</h2>
+
+      <p><strong>Tech Stack:</strong> JavaScript, Three.js, HTML5, CSS3, Node.js, WebSockets (Socket.IO)</p>
+
+      <p>
+        Dino.io is a full-stack 3D multiplayer web game featuring an online shared world, live player synchronization, and dynamic gameplay mechanics. The frontend utilizes Three.js for immersive 3D graphics rendered directly in the browser and is hosted via GitHub Pages, while a custom Node.js backend manages real-time WebSocket communication and is deployed on Render.
+      </p>
+
+      <h3>Key Features</h3>
+      <ul>
+        <li><strong>3D Graphics &amp; Rendering:</strong> Implemented using Three.js and vanilla JavaScript to handle custom game loops, lighting, and interactive 3D canvas rendering.</li>
+
+        <li><strong>Real-Time Multiplayer:</strong> Bidirectional event synchronization using WebSockets (Socket.IO) allowing multiple users to connect and play simultaneously in a shared world.</li>
+
+        <li><strong>Dynamic Gameplay &amp; Progression:</strong> Interactive mechanics featuring player evolution, size scaling, scoring systems, and upgrade shops.</li>
+
+        <li><strong>Cloud Architecture &amp; Deployment:</strong> Clean separation of concerns with a static client on GitHub Pages and a persistent backend service hosted on Render using automated configuration.</li>
+      </ul>
+
+      <p>
+        This project demonstrates the successful integration of advanced frontend graphics, real-time networking, and cloud deployment pipelines, resulting in a fully interactive, production-ready web application.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="carousel-title">Gallery</h2>
+      <div class="carousel-container">
+        <!-- Puedes cambiar o agregar las imágenes de tus capturas aquí -->
+        <img src="img/dino-gameplay.png" alt="Dino.io gameplay" class="carousel-img" />
+        <img src="img/dino-multiplayer.png" alt="Multiplayer room interface" class="carousel-img" />
+      </div>
+    </section>
+
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="https://ulisescorreag.github.io/Dinosaur.io/" target="_blank" class="btn">Play Live Game</a>
+      <a href="https://github.com/ulisescorreag/Dinosaur.io" target="_blank" class="btn">View Client on GitHub</a>
+      <a href="https://github.com/ulisescorreag/dinosaur-online-server" target="_blank" class="btn">View Server on GitHub</a>
+      <a href="proyectos-extra.html" class="btn">Back to Projects</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Ulises Correa · Mexico</p>
+  </footer>
+</body>
+</html>
