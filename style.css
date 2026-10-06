@@ -1,11 +1,15 @@
+/* =========================
+   GENERAL
+   ========================= */
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  padding-top: 52px;
   background: #f0f4f8;
   color: #333;
 }
+
 
 /* =========================
    HEADER
@@ -17,6 +21,7 @@ header {
   padding: 2rem 1rem;
   text-align: center;
 }
+
 
 /* =========================
    PROFILE IMAGE
@@ -30,6 +35,7 @@ header .perfil-img {
   border: 4px solid white;
   margin-bottom: 1rem;
 }
+
 
 /* =========================
    NAVIGATION
@@ -46,7 +52,7 @@ nav {
 .nav {
   list-style: none;
   padding: 0.7rem;
-  margin: 1.5rem 0 0;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,6 +79,8 @@ nav {
   color: white;
   text-decoration: none;
 }
+
+
 /* =========================
    MAIN CONTENT
    ========================= */
@@ -87,6 +95,16 @@ section {
   margin-bottom: 3rem;
 }
 
+
+/* =========================
+   TECHNOLOGY CONTENT
+   ========================= */
+
+.tech-content {
+  line-height: 1.8;
+}
+
+
 /* =========================
    PROJECT CARDS
    ========================= */
@@ -94,7 +112,7 @@ section {
 .card {
   background: white;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 1.5rem;
   margin-bottom: 2rem;
   transition: transform 0.2s, box-shadow 0.3s;
@@ -102,7 +120,7 @@ section {
 
 .card:hover {
   transform: scale(1.02);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .card img {
@@ -116,6 +134,7 @@ section {
 .card h3 {
   margin-top: 0;
 }
+
 
 /* =========================
    BUTTONS
@@ -136,6 +155,26 @@ section {
   background-color: #005fa3;
 }
 
+
+/* =========================
+   CONTACT
+   ========================= */
+
+.contact-content {
+  line-height: 1.8;
+}
+
+.whatsapp {
+  text-decoration: none;
+  background: #e8f5e9;
+  color: #2e7d32;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  border: 1px solid #c8e6c9;
+  font-weight: 500;
+}
+
+
 /* =========================
    FOOTER
    ========================= */
@@ -146,6 +185,7 @@ footer {
   background: #003366;
   color: white;
 }
+
 
 /* =========================
    CAROUSEL
@@ -177,6 +217,7 @@ footer {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
+
 /* =========================
    CAROUSEL TITLES
    ========================= */
@@ -186,6 +227,7 @@ footer {
   font-size: 1.5rem;
   font-weight: bold;
 }
+
 
 /* =========================
    TECHNOLOGY TAGS
@@ -199,6 +241,7 @@ footer {
   border-radius: 8px;
   font-size: 14px;
 }
+
 
 /* =========================
    MOBILE
