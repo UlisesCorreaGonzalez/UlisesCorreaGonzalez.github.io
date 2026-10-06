@@ -2,6 +2,10 @@
    GENERAL
    ========================= */
 
+html {
+  scroll-padding-top: 70px;
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
@@ -93,25 +97,6 @@ nav {
 
 section {
   margin-bottom: 3rem;
-  position: relative;
-}
-
-section::before {
-  content: "";
-  display: block;
-  height: 70px;
-  margin-top: -70px;
-  visibility: hidden;
-  pointer-events: none;
-}
-
-@media (max-width: 600px) {
-
-  section::before {
-    height: 90px;
-    margin-top: -90px;
-  }
-
 }
 
 
@@ -268,6 +253,10 @@ footer {
 
 @media (max-width: 600px) {
 
+  html {
+    scroll-padding-top: 90px;
+  }
+
   .nav {
     gap: 0.3rem;
     padding: 0.5rem;
@@ -280,3 +269,4 @@ footer {
   }
 
 }
+
