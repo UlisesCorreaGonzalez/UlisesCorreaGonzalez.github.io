@@ -36,25 +36,22 @@ header .perfil-img {
    ========================= */
 
 nav {
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: 0;
-  width: 100%;
-  height: 52px;
   z-index: 1000;
+  width: 100%;
   background: #003366;
-  box-sizing: border-box;
 }
 
 .nav {
   list-style: none;
-  height: 100%;
-  margin: 0;
-  padding: 0;
+  padding: 0.7rem;
+  margin: 1.5rem 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  background: #003366;
 }
 
 .nav li {
@@ -76,7 +73,6 @@ nav {
   color: white;
   text-decoration: none;
 }
-
 /* =========================
    MAIN CONTENT
    ========================= */
